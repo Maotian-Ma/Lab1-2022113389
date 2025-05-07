@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 from DAG_gen import save_graph_image
 
-
+#B2中修改bridge_word
 def _queryBridgeWords(graph, word1, word2):
     if word1 not in graph or word2 not in graph:
         print(f"No \"{word1}\" or \"{word2}\" in the graph!")

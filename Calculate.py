@@ -3,7 +3,7 @@ import networkx as nx
 import random
 import matplotlib.pyplot as plt
 
-
+#B2中修改calculate
 def find_shortest_path(graph, word1, word2):
     word1 = word1.lower()  # 转为小写
     word2 = word2.lower()  # 转为小写
