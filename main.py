@@ -3,7 +3,7 @@ from DAG_gen import showDirectedGraph
 from PageRank import calPageRank
 from RandomWalk import randomWalk
 from bridge_word import generateNewText, queryBridgeWords
-
+#测试main.py更改
 
 def main():
     #功能1，2: 生成DAG并展示
