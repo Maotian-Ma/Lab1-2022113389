@@ -2,7 +2,11 @@ import re
 import networkx as nx
 import random
 import matplotlib.pyplot as plt
+<<<<<<< HEAD
 #为B1修改bridge_word.py
+=======
+#修改bridge_word.py
+>>>>>>> C4
 from DAG_gen import save_graph_image
 
 
