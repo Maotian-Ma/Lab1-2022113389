@@ -58,9 +58,8 @@ def save_graph_image(graph, filename="graph.png"):
     print(f"\nGraph image saved as '{filename}'")
 
 
-def showDirectedGraph():
-    # 用户输入文件路径
-    file_path = input("Enter the path to the text file: ")
+def showDirectedGraph(file_path):
+
 
     # 处理文本并构建有向图
     words = process_text(file_path)

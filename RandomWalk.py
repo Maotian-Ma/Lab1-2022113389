@@ -2,7 +2,7 @@ import re
 import networkx as nx
 import random
 import os
-
+#更改randomwalk.py
 
 def random_walk(graph):
     # 随机选择一个起始节点
